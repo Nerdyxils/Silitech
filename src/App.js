@@ -6,13 +6,13 @@ import Footer from './components/pages/Footer/Footer';
 
 function App() {
   return (
-    <Router >
+    <BrowserRouter >
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home}/>
       </Switch>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
