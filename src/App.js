@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/pages/Navbar';
 import Home from './components/pages/HomePage/Home'
@@ -9,7 +9,7 @@ import Footer from './components/pages/Footer/Footer';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home}/>
@@ -18,7 +18,7 @@ function App() {
         <Route path='/sign-up' component={Signup}/>
       </Switch>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
