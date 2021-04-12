@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Silitech/static/css/main.d41d2fc2.chunk.css",
-    "main.js": "/Silitech/static/js/main.c88ffca2.chunk.js",
-    "main.js.map": "/Silitech/static/js/main.c88ffca2.chunk.js.map",
+    "main.js": "/Silitech/static/js/main.7ffcc426.chunk.js",
+    "main.js.map": "/Silitech/static/js/main.7ffcc426.chunk.js.map",
     "runtime-main.js": "/Silitech/static/js/runtime-main.47718f94.js",
     "runtime-main.js.map": "/Silitech/static/js/runtime-main.47718f94.js.map",
     "static/js/2.9dc5fec0.chunk.js": "/Silitech/static/js/2.9dc5fec0.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.47718f94.js",
     "static/js/2.9dc5fec0.chunk.js",
     "static/css/main.d41d2fc2.chunk.css",
-    "static/js/main.c88ffca2.chunk.js"
+    "static/js/main.7ffcc426.chunk.js"
   ]
 }
